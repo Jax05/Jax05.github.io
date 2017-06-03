@@ -1,0 +1,21 @@
+# Site settings
+title: From N00B to Beginner and Beyond
+header-img: img/home-bg.png
+email: carley.tripp@outlook.com
+copyright_name: Jax05
+description: > # this means to ignore newlines until "baseurl:"
+  A Coding Journey
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  Jax05
+learn_profile: Jax05
+email_username: carley.tripp@outlook.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
