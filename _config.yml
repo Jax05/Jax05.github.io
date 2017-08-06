@@ -1,12 +1,12 @@
 # Site settings
-title: From N00B to Beginner and Beyond
+title: Digital Speak
 header-img: img/home-bg.png
 email: carley.tripp@outlook.com
 copyright_name: Jax05
 description: > # this means to ignore newlines until "baseurl:"
-  A Coding Journey
+  Becoming a Better Developer
 baseurl: "" # the subpath of your site, e.g. /blog
-twitter_username: 
+twitter_username: carleytripp
 github_username:  Jax05
 learn_profile: Jax05
 email_username: carley.tripp@outlook.com
