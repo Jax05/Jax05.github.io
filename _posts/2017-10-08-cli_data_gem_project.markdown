@@ -1,20 +1,20 @@
 ---
 layout: post
 title:      "CLI Data Gem Project"
-date:       2017-10-09 01:18:03 +0000
+date:       2017-10-08 21:18:04 -0400
 permalink:  cli_data_gem_project
 ---
 
 ![Imgur](https://i.imgur.com/dPaAslQ.png)
 
-## The Challenge
+# The Challenge
 For my first portfolio project, I was challenged to program a CLI application with good object oriented code. I had to scrape a website and write a program that would offer a list of available data and information about that data that went at least one level deep. Sounds easy, right? Wrong. The task was actually quite daunting for a beginner like me.
 
 All of our previous lessons and labs offered pretty direct instructions on what we were supposed to do. Now that I was on my own, I started to panic. Which website would I choose? What kind of methods should I write? Do I really even know how to code?? Fortunately, my senses came back to me after a few minutes (or hours) of freaking out.
 
 I remembered that I had spent weeks preparing for this very moment. All the information I had absorbed from the lessons, labs, and lectures before was still there in my brain. I just needed to fish it out.
 
-## Getting Started
+# Getting Started
 I was given a few requirements to meet:
 
 1. Provide a CLI
@@ -29,7 +29,7 @@ After contemplating for some time, I decided on programming a science news reade
 
 There were a number of resources provided to help me get started. Among them was this [walkthrough video](https://www.youtube.com/watch?v=_lDExWIhYKI) filmed by Avi. Admittedly, I had to start over a couple of times before getting everything in order, but I ended up successfully creating my first Ruby gem! Awesome.
 
-## Development
+# Development
 I began by creating two classes called CLI and Story. The CLI class would be responsible for greeting the user, listing the stories available to read, and providing menu options. I decided to include the scraper methods in my Story class rather than creating a separate class for scraping. This was because my scraper methods were rather small, and the class itself didn't contain much else.
 
 ![Imgur](https://i.imgur.com/RaRZfDq.png)
@@ -44,7 +44,7 @@ puts "Why Science Rocks"
 
 After writing all the necessary code, I was finally ready to publish my gem. 
 
-## Publishing the Gem
+# Publishing the Gem
 Publishing my gem to RubyGems was super easy. Bundler created a rakefile when I made my gem so all I had to do was run 'rake install'. This allowed me to make sure everything was in working order before actually releasing my gem into the wild. When I was satisfied with the program, I used 'rake release' to publish.
 
 You can check it out [here](https://rubygems.org/gems/sciencemag_latest_news).
